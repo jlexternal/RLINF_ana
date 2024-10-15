@@ -1,0 +1,190 @@
+Condition-agnostic model (p<0.05 threshold for inclusion)
+
+lavaan 0.6-18 ended normally after 21 iterations
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        13
+  Number of observations                           149
+  Number of missing patterns                         4
+Model Test User Model:
+  Test statistic                                19.298
+  Degrees of freedom                                14
+  P-value (Chi-square)                           0.154
+Model Test Baseline Model:
+  Test statistic                               340.367
+  Degrees of freedom                                15
+  P-value                                        0.000
+User Model versus Baseline Model:
+  Comparative Fit Index (CFI)                    0.984
+  Tucker-Lewis Index (TLI)                       0.983
+  Robust Comparative Fit Index (CFI)             0.980
+  Robust Tucker-Lewis Index (TLI)                0.979
+Loglikelihood and Information Criteria:
+  Loglikelihood user model (H0)               -909.505
+  Loglikelihood unrestricted model (H1)       -899.791
+  Akaike (AIC)                                1845.010
+  Bayesian (BIC)                              1884.061
+  Sample-size adjusted Bayesian (SABIC)       1842.920
+Root Mean Square Error of Approximation:
+  RMSEA                                          0.051
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.101
+  P-value H_0: RMSEA <= 0.050                    0.447
+  P-value H_0: RMSEA >= 0.080                    0.192
+  Robust RMSEA                                   0.067
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.122
+  P-value H_0: Robust RMSEA <= 0.050             0.290
+  P-value H_0: Robust RMSEA >= 0.080             0.388
+Standardized Root Mean Square Residual:
+  SRMR                                           0.038
+Parameter Estimates:
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  intell =~                                                             
+    icar    (ittt)    0.928    0.082   11.336    0.000    0.928    0.929
+    icar_rt (itrt)    0.897    0.089   10.130    0.000    0.897    0.892
+  sig =~                                                                
+    sigma_B (ssBt)    0.576    0.071    8.144    0.000    0.693    0.695
+    sgm_B_r (ssBr)    0.730    0.078    9.378    0.000    0.878    0.858
+    sigma_F (ssFt)    0.536    0.075    7.123    0.000    0.645    0.647
+    sgm_F_r (ssFr)    0.693    0.082    8.464    0.000    0.833    0.817
+  intell =~                                                             
+    sig     (in__)   -0.668    0.131   -5.095    0.000   -0.556   -0.556
+Variances:
+   .icar   (VAR_c)    0.137    0.098    1.401    0.161    0.137    0.137
+   .sg_B (VAR_s_B)    0.513    0.080    6.455    0.000    0.513    0.517
+   .sg_F (VAR_s_F)    0.578    0.086    6.719    0.000    0.578    0.582
+   .icr_  (VAR_c_)    0.206    0.094    2.191    0.028    0.206    0.204
+   .s_B_ (VAR__B_)    0.276    0.075    3.687    0.000    0.276    0.263
+   .s_F_ (VAR__F_)    0.346    0.078    4.448    0.000    0.346    0.333
+    intl              1.000                               1.000    1.000
+   .sig               1.000                               0.691    0.691
+Results from boostrapping:
+Parameter Estimates:
+  Standard errors                            Bootstrap
+  Number of requested bootstrap draws             1000
+  Number of successful bootstrap draws            1000
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  intell =~                                                             
+    icar    (ittt)    0.928    0.078   11.867    0.000    0.928    0.929
+    icar_rt (itrt)    0.897    0.077   11.700    0.000    0.897    0.892
+  sig =~                                                                
+    sigma_B (ssBt)    0.576    0.078    7.351    0.000    0.693    0.695
+    sgm_B_r (ssBr)    0.730    0.076    9.641    0.000    0.878    0.858
+    sigma_F (ssFt)    0.536    0.092    5.800    0.000    0.645    0.647
+    sgm_F_r (ssFr)    0.693    0.092    7.568    0.000    0.833    0.817
+  intell =~                                                             
+    sig     (in__)   -0.668    0.140   -4.758    0.000   -0.556   -0.556
+Variances:
+   .icar   (VAR_c)    0.137    0.100    1.366    0.172    0.137    0.137
+   .sg_B (VAR_s_B)    0.513    0.089    5.769    0.000    0.513    0.517
+   .sg_F (VAR_s_F)    0.578    0.094    6.132    0.000    0.578    0.582
+   .icr_  (VAR_c_)    0.206    0.099    2.071    0.038    0.206    0.204
+   .s_B_ (VAR__B_)    0.276    0.080    3.464    0.001    0.276    0.263
+   .s_F_ (VAR__F_)    0.346    0.092    3.773    0.000    0.346    0.333
+    intl              1.000                               1.000    1.000
+   .sig               1.000                               0.691    0.691
+
+
+
+Condition-specific model (p<0.05 threshold for inclusion)
+lavaan 0.6-18 ended normally after 27 iterations
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        14
+  Number of observations                           149
+  Number of missing patterns                         4
+Model Test User Model:                                
+  Test statistic                                58.545
+  Degrees of freedom                                13
+  P-value (Chi-square)                           0.000
+Model Test Baseline Model:
+  Test statistic                               340.367
+  Degrees of freedom                                15
+  P-value                                        0.000
+User Model versus Baseline Model:
+  Comparative Fit Index (CFI)                    0.860
+  Tucker-Lewis Index (TLI)                       0.838                     
+  Robust Comparative Fit Index (CFI)             0.869
+  Robust Tucker-Lewis Index (TLI)                0.849
+Loglikelihood and Information Criteria:
+  Loglikelihood user model (H0)               -929.261
+  Loglikelihood unrestricted model (H1)       -899.791               
+  Akaike (AIC)                                1886.522
+  Bayesian (BIC)                              1928.577
+  Sample-size adjusted Bayesian (SABIC)       1884.271
+Root Mean Square Error of Approximation:
+  RMSEA                                          0.154
+  90 Percent confidence interval - lower         0.115
+  90 Percent confidence interval - upper         0.195
+  P-value H_0: RMSEA <= 0.050                    0.000
+  P-value H_0: RMSEA >= 0.080                    0.999
+  Robust RMSEA                                   0.178
+  90 Percent confidence interval - lower         0.133
+  90 Percent confidence interval - upper         0.225
+  P-value H_0: Robust RMSEA <= 0.050             0.000
+  P-value H_0: Robust RMSEA >= 0.080             1.000
+Standardized Root Mean Square Residual:
+  SRMR                                           0.132
+Parameter Estimates:
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  intell =~                                                             
+    icar    (ittt)    0.910    0.072   12.712    0.000    0.910    0.908
+    icr_rt  (itrt)    0.910    0.078   11.601    0.000    0.910    0.902
+  sig_B =~                                                              
+    sigm_B (sBsBt)    0.557    0.074    7.540    0.000    0.707    0.710
+    sgm_B_ (sBsBr)    0.735    0.104    7.063    0.000    0.933    0.908
+  sig_F =~                                                              
+    sigm_F (sFsFt)    0.596    0.083    7.153    0.000    0.692    0.694
+    sgm_F_ (sFsFr)    0.797    0.115    6.918    0.000    0.926    0.921
+  intell =~                                                             
+    sig_B   (itsB)   -0.782    0.155   -5.037    0.000   -0.616   -0.616
+    sig_F   (itsF)   -0.589    0.132   -4.451    0.000   -0.508   -0.508
+Variances:
+   .ic     (VAR_c)    0.177    0.059    2.993    0.003    0.177    0.176
+   .s_ (VAR_sgm_B)    0.493    0.096    5.119    0.000    0.493    0.496
+   .s_ (VAR_sgm_F)    0.515    0.111    4.634    0.000    0.515    0.518
+   .i_    (VAR_c_)    0.190    0.058    3.270    0.001    0.190    0.186
+   .s_   (VAR__B_)    0.184    0.132    1.398    0.162    0.184    0.175
+   .s_   (VAR__F_)    0.154    0.165    0.930    0.352    0.154    0.152
+    in     (VAR_n)    1.000                               1.000    1.000
+   .s_ (VAR_sig_B)    1.000                               0.620    0.620
+   .s_ (VAR_sig_F)    1.000                               0.742    0.742
+Results from boostrapping:
+Parameter Estimates:
+  Standard errors                            Bootstrap
+  Number of requested bootstrap draws             1000
+  Number of successful bootstrap draws             999
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  intell =~                                                             
+    icar    (ittt)    0.910    0.067   13.659    0.000    0.910    0.908
+    icr_rt  (itrt)    0.910    0.064   14.131    0.000    0.910    0.902
+  sig_B =~                                                              
+    sigm_B (sBsBt)    0.557    0.076    7.344    0.000    0.707    0.710
+    sgm_B_ (sBsBr)    0.735    0.108    6.798    0.000    0.933    0.908
+  sig_F =~                                                              
+    sigm_F (sFsFt)    0.596    0.089    6.731    0.000    0.692    0.694
+    sgm_F_ (sFsFr)    0.797    0.134    5.934    0.000    0.926    0.921
+  intell =~                                                             
+    sig_B   (itsB)   -0.782    0.170   -4.594    0.000   -0.616   -0.616
+    sig_F   (itsF)   -0.589    0.140   -4.210    0.000   -0.508   -0.508
+Variances:
+   .ic     (VAR_c)    0.177    0.058    3.066    0.002    0.177    0.176
+   .s_ (VAR_sgm_B)    0.493    0.109    4.514    0.000    0.493    0.496
+   .s_ (VAR_sgm_F)    0.515    0.110    4.700    0.000    0.515    0.518
+   .i_    (VAR_c_)    0.190    0.063    2.998    0.003    0.190    0.186
+   .s_   (VAR__B_)    0.184    0.146    1.265    0.206    0.184    0.175
+   .s_   (VAR__F_)    0.154    0.204    0.752    0.452    0.154    0.152
+    in     (VAR_n)    1.000                               1.000    1.000
+   .s_ (VAR_sig_B)    1.000                               0.620    0.620
+   .s_ (VAR_sig_F)    1.000                               0.742    0.742
